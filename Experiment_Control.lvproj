@@ -14,6 +14,7 @@
 		<Item Name="experimentcontrol" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="MDSplus.lvlib" Type="Library" URL="/&lt;vilib&gt;/MDSplus/Library/MDSplus.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="DAQmx Trigger.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/trigger.llb/DAQmx Trigger.vi"/>
@@ -302,8 +303,8 @@
 				<Item Name="DWDT Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Empty Digital.vi"/>
 				<Item Name="DTbl Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Empty Digital.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="MDSplus.lvlib" Type="Library" URL="/&lt;vilib&gt;/MDSplus/Library/MDSplus.lvlib"/>
 				<Item Name="LVAnnotationListTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVAnnotationListTypeDef.ctl"/>
+				<Item Name="Delete Signal DVR.vi" Type="VI" URL="/&lt;vilib&gt;/MDSplus/Classes/Data_Class/Compound_Class/Signal Folder/Delete Signal DVR.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niSync Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/niSync/niSync.llb/niSync Initialize.vi"/>
@@ -388,7 +389,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/Z/MOCHIcontrol</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{CB60F86D-62AC-4682-AA75-79CBDF338E26}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">MOCHIcontrol.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/Z/MOCHIcontrol/MOCHIcontrol.exe</Property>
