@@ -298,7 +298,6 @@
 			<Item Name="MDSobjectsLVShr.dll" Type="Document" URL="MDSobjectsLVShr.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Control 1.ctl" Type="VI" URL="../mochifpgacontrol/FPGA_Controls/Control 1.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
