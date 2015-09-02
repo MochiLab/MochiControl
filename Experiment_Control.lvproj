@@ -328,7 +328,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/Z/MOCHIcontrol</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{CB60F86D-62AC-4682-AA75-79CBDF338E26}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">MOCHIcontrol.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/Z/MOCHIcontrol/MOCHIcontrol.exe</Property>
