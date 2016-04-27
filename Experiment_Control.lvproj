@@ -330,10 +330,10 @@
 			<Item Name="State.ctl" Type="VI" URL="../Modules/mochifpgacontrol/Controls/State.ctl"/>
 			<Item Name="InitFPGA.vi" Type="VI" URL="../Modules/mochifpgacontrol/SubVIs/InitFPGA.vi"/>
 			<Item Name="MochiFPGAControl_FPGATarget_pxie7962fpga_vH47uBXjtQs.lvbitx" Type="Document" URL="../Modules/mochifpgacontrol/FPGA Bitfiles/MochiFPGAControl_FPGATarget_pxie7962fpga_vH47uBXjtQs.lvbitx"/>
-			<Item Name="diagnose_triggering.lvbitx" Type="Document" URL="../../mochifpgacontrol/FPGA Bitfiles/diagnose_triggering.lvbitx"/>
 			<Item Name="MDSobjectsLVShr" Type="VI" URL="MDSobjectsLVShr">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="MochiFPGAControlFirmware_K10_InternalAC_Enabled_DebuggingControls.lvbitx" Type="Document" URL="../../Main experiment code/experimentcontrol/Modules/mochifpgacontrol/FPGA Bitfiles/Current Version/MochiFPGAControlFirmware_K10_InternalAC_Enabled_DebuggingControls.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="MOCHIcontrol" Type="EXE">
