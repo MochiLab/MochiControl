@@ -333,7 +333,7 @@
 			<Item Name="MDSobjectsLVShr" Type="VI" URL="MDSobjectsLVShr">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="MochiFPGAControlFirmware_K10_InternalAC_Enabled_DebuggingControls.lvbitx" Type="Document" URL="../../Main experiment code/experimentcontrol/Modules/mochifpgacontrol/FPGA Bitfiles/Current Version/MochiFPGAControlFirmware_K10_InternalAC_Enabled_DebuggingControls.lvbitx"/>
+			<Item Name="read_write_control.ctl" Type="VI" URL="../Modules/mochifpgacontrol/Controls/read_write_control.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="MOCHIcontrol" Type="EXE">
@@ -351,7 +351,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/Z/MOCHIcontrol</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{CB60F86D-62AC-4682-AA75-79CBDF338E26}</Property>
-				<Property Name="Bld_version.build" Type="Int">24</Property>
+				<Property Name="Bld_version.build" Type="Int">25</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">MOCHIcontrol.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/Z/MOCHIcontrol/MOCHIcontrol.exe</Property>
@@ -362,7 +362,7 @@
 				<Property Name="Destination[1].path" Type="Path">/Z/MOCHIcontrol/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FC87EC95-54D5-48A2-B235-1D8B1EE1EF53}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{77B5C0E1-A611-4FFE-B3C0-13DDA2D46354}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/experimentcontrol/Experiment_Control.vi</Property>
@@ -375,15 +375,10 @@
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref"></Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/experimentcontrol/SubVIs</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/experimentcontrol/SubVIs</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">MOCHI Labs</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">LabJet control code.</Property>
 				<Property Name="TgtF_internalName" Type="Str">MOCHIcontrol</Property>
