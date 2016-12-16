@@ -351,7 +351,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/Z/MOCHIcontrol</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{CB60F86D-62AC-4682-AA75-79CBDF338E26}</Property>
-				<Property Name="Bld_version.build" Type="Int">25</Property>
+				<Property Name="Bld_version.build" Type="Int">26</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">MOCHIcontrol.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/Z/MOCHIcontrol/MOCHIcontrol.exe</Property>
@@ -362,7 +362,7 @@
 				<Property Name="Destination[1].path" Type="Path">/Z/MOCHIcontrol/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{77B5C0E1-A611-4FFE-B3C0-13DDA2D46354}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A8C734F8-CC15-48B1-9B18-5C24341996A7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/experimentcontrol/Experiment_Control.vi</Property>
