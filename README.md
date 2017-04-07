@@ -58,7 +58,7 @@ PXI-6133 -> DAQ[0-2]
 
 ## Adapting the code to new hardware
 Adapting this code to new NI components requires significant work.
-Woodruff Scientific, Inc. designs and installs Controls, Data Acccess and Communication (CODAC) systems.
+Woodruff Scientific, Inc. designs and installs Controls, Data Access and Communication (CODAC) systems.
 http://www.woodruffscientific.com/codac
 
 ## Reference
