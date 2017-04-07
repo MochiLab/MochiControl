@@ -67,7 +67,8 @@ http://www.woodruffscientific.com/codac
 ## Reference
 * Jens von der Linden. (In preparation). Investigating the Dynamics of Canonical Flux Tubes (Doctoral dissertation). Chapter 4. University of Washington.
 * Alexander Card. (In preparation). A new measuremnet of electron densities in the MOCHI LabJet experiment using an unequal path length, heterodyne interferometer (Master's thesis). University of Washington
-* Alexander Card. (2017). MochiModel. https://doi.org/10.5281/zenodo.495631
+* Alexander Card. (2017). MochiModel. Zenodo. https://doi.org/10.5281/zenodo.495631
+* Jens von der Linden. (2017). MochiFPGAcontrol: High-throughput FPGA code for NI-5752 digitizers. Zenodo. http://doi.org/10.5281/zenodo.439654
 * Evan Carroll (2016). Driving Flows in Laboratory Astrophysical Plasma Jets: The Mochi.LabJet Experiment (Master's thesis). University of Washington.
 
 ## Acknowledgments
