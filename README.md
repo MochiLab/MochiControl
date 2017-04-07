@@ -58,17 +58,17 @@ PXI-6133 -> DAQ[0-2]
 
 ## Adapting the code to new hardware
 Adapting this code to new NI components requires significant work.
-Woodruff Scientific can design and install Controls, Data Acccess and Communication (CODAC) systems.
+Woodruff Scientific, Inc. designs and installs Controls, Data Acccess and Communication (CODAC) systems.
 http://www.woodruffscientific.com/codac
 
 ## Reference
 * Jens von der Linden. (In preparation). Investigating the Dynamics of Canonical Flux Tubes (Doctoral dissertation). Chapter 4. University of Washington.
 * Alexander Card. (In preparation). A new measuremnet of electron densities in the MOCHI LabJet experiment using an unequal path length, heterodyne interferometer (Master's thesis). University of Washington
-* Alexander Card. (2017). MochiModel.
+* Alexander Card. (2017). MochiModel. https://doi.org/10.5281/zenodo.495631
 * Evan Carroll (2016). Driving Flows in Laboratory Astrophysical Plasma Jets: The Mochi.LabJet Experiment (Master's thesis). University of Washington.
 
 ## Acknowledgments
-James Stuber and Woodruff Scientific provided the lab with our initial NI hardware, code, and ongoing support.
+James Stuber and Woodruff Scientific, Inc. provided the lab with our initial NI hardware, code, and ongoing support.
 
 ## Contact
 Jens von der Linden jensv@uw.edu
