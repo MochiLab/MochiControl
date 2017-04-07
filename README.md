@@ -1,7 +1,7 @@
 # MochiControl
 Mochi Lab uses this flexible National Instruments LabVIEW experiment control application, based on the producer-consumer design pattern, to allow operators real-time control over all experimental settings, including 16 timing channels with a dynamic timing map, 120 digitizer channels, and a settings save and load interface powered by MDSplus.
 The hierarchical MDSplus tree stores all experiment settings such as capacitor bank voltages and discharge times together with all data acquired through National Instruments PXI-6133 and NI-5752 digitizer cards, Tektronix TDS-2024B oscilloscopes, and a Princeton Instruments PI-MAX 3 fast framing camera.
-The experiment control application can also accesses stored settings through the MDSplus LabVIEW interface which leverages the object oriented and multi-threaded features of MDSplus.
+The experiment control application can also access stored settings through the MDSplus LabVIEW interface which leverages the object oriented and multi-threaded features of MDSplus.
 To control the experiment the application switches digital outputs of a PXI-6602 timing card connected through fiber optics to relays in the bias coil and plasma gun capacitor banks to achieve the desired charging voltage.
 The application transmits the desired experiment timings to the PXI-6602 cards which use on board clocks to generate optically isolated trigger pulses for the gas puff valves, oscilloscopes, bias coil and plasma gun capacitor banks.
 The optical isolation is achieved with TTL-optical transmitter circuits, and DC and fast optical-TTL receiver circuits at the experiment (Carroll 2016).
