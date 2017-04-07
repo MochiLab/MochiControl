@@ -1,10 +1,10 @@
 # Mochi Control
-Mochi Lab uses this flexible National Instruments LabVIEW experiment control application, based on the producer-consumer design pattern, to allow operators to load previous shot settings from an MDSplus tree and manipulate the experiment settings.
-A hierarchical MDSplus tree stores all experiment settings such as capacitor bank voltages and discharge times together with all data acquired through National Instruments PXI-6133 and NI-5752 digitizer cards, Tektronix TDS-2024B oscilloscopes, and a Princeton Instruments PI-MAX 3 fast framing camera.
-The experiment control application accesses the storage through the MDSplus LabVIEW interface which leverages the object oriented and multi-threaded features of MDSplus.
+Mochi Lab uses this flexible National Instruments LabVIEW experiment control application, based on the producer-consumer design pattern, to allow operators real-time control over all experimental settings, including 16 timing channels with a dynamic timing map, 120 digitizer channels, and a settings save and load interface powered by MDSplus.
+The hierarchical MDSplus tree stores all experiment settings such as capacitor bank voltages and discharge times together with all data acquired through National Instruments PXI-6133 and NI-5752 digitizer cards, Tektronix TDS-2024B oscilloscopes, and a Princeton Instruments PI-MAX 3 fast framing camera.
+The experiment control application can also accesses stored settings through the MDSplus LabVIEW interface which leverages the object oriented and multi-threaded features of MDSplus.
 To control the experiment the application switches digital outputs of a PXI-6602 timing card connected through fiber optics to relays in the bias coil and plasma gun capacitor banks to achieve the desired charging voltage.
 The application transmits the desired experiment timings to the PXI-6602 cards which use on board clocks to generate optically isolated trigger pulses for the gas puff valves, oscilloscopes, bias coil and plasma gun capacitor banks.
-The optical isolation is achieved with TTL-optical transmitter circuits, and DC and fast optical-TTL receiver circuits at the experiment (Caroll 2016).
+The optical isolation is achieved with TTL-optical transmitter circuits, and DC and fast optical-TTL receiver circuits at the experiment (Carroll 2016).
 
 ## Requirements
 ### Software Dependencies
@@ -54,7 +54,7 @@ PXI-6653 -> Sync
 PXI-6602 -> Timing[0-1]
 PXI-6133 -> DAQ[0-2]
 
-* an MDSplus tree named 'op_tree' has to be created with the Mochimodel software referenced below.
+* an MDSplus tree named 'op_tree' has to be created with the MochiModel software referenced below.
 
 ## Adapting the code to new hardware
 Adapting this code to new NI components requires significant work.
@@ -63,7 +63,7 @@ http://www.woodruffscientific.com/codac
 
 ## Reference
 * Jens von der Linden. (In preparation). Investigating the Dynamics of Canonical Flux Tubes (Doctoral dissertation). Chapter 4. University of Washington.
-* Alexander Card. (In preparation). ---------- (Master's thesis). University of Washington
+* Alexander Card. (In preparation). A new measuremnet of electron densities in the MOCHI LabJet experiment using an unequal path length, heterodyne interferometer (Master's thesis). University of Washington
 * Alexander Card. (2017). MochiModel.
 * Evan Carroll (2016). Driving Flows in Laboratory Astrophysical Plasma Jets: The Mochi.LabJet Experiment (Master's thesis). University of Washington.
 
